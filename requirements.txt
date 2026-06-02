@@ -1,221 +1,1329 @@
 absl-py==1.4.0
+    # via
+    #   -r requirements.txt
+    #   tensorboard
+    #   tensorflow
+access==1.1.9
+    # via pysal
+affine==2.4.0
+    # via
+    #   rasterio
+    #   rasterstats
 aiohappyeyeballs==2.4.4
+    # via
+    #   -r requirements.txt
+    #   aiohttp
 aiohttp==3.10.11
+    # via
+    #   -r requirements.txt
+    #   langchain
+    #   langchain-community
 aiosignal==1.3.1
+    # via
+    #   -r requirements.txt
+    #   aiohttp
 alembic==1.14.1
+    # via
+    #   -r requirements.txt
+    #   mlflow
 altair==5.0.1
+    # via -r requirements.txt
 annotated-types==0.7.0
+    # via
+    #   -r requirements.txt
+    #   pydantic
 anyio==4.5.2
+    # via
+    #   -r requirements.txt
+    #   httpx
+    #   openai
 appnope==0.1.4
-arviz==0.16.0
+    # via -r requirements.txt
+arviz==0.15.1
+    # via pymc
 asttokens==3.0.1
+    # via
+    #   -r requirements.txt
+    #   stack-data
 astunparse==1.6.3
+    # via
+    #   -r requirements.txt
+    #   tensorflow
 async-timeout==4.0.3
+    # via
+    #   -r requirements.txt
+    #   aiohttp
+    #   langchain
 attrs==25.3.0
+    # via
+    #   -r requirements.txt
+    #   aiohttp
+    #   fiona
+    #   jsonschema
+    #   rasterio
+    #   referencing
 backcall==0.2.0
+    # via
+    #   -r requirements.txt
+    #   ipython
+beautifulsoup4==4.14.3
+    # via libpysal
 blinker==1.8.2
-bokeh==3.3.0
-Bottleneck==1.3.5
-Brotli==1.0.9
+    # via
+    #   -r requirements.txt
+    #   flask
+bokeh==3.1.1
+    # via -r requirements.txt
+bottleneck==1.3.5
+    # via -r requirements.txt
+branca==0.8.2
+    # via folium
+brotli==1.0.9
+    # via -r requirements.txt
 cachetools==5.5.2
+    # via
+    #   -r requirements.txt
+    #   mlflow-skinny
+    #   pymc
+cartopy==0.21.1
+    # via -r requirements.txt
 certifi==2026.4.22
+    # via
+    #   -r requirements.txt
+    #   fiona
+    #   httpcore
+    #   httpx
+    #   pyogrio
+    #   pyproj
+    #   rasterio
+    #   requests
 cffi==1.17.1
+    # via
+    #   -r requirements.txt
+    #   cryptography
 charset-normalizer==3.4.7
+    # via
+    #   -r requirements.txt
+    #   requests
 click==8.1.8
+    # via
+    #   -r requirements.txt
+    #   click-plugins
+    #   cligj
+    #   dask
+    #   distributed
+    #   fiona
+    #   flask
+    #   mercantile
+    #   mlflow-skinny
+    #   rasterio
+    #   rasterstats
+click-plugins==1.1.1.2
+    # via
+    #   fiona
+    #   rasterio
+cligj==0.7.2
+    # via
+    #   fiona
+    #   rasterio
+    #   rasterstats
 cloudpickle==3.1.2
+    # via
+    #   -r requirements.txt
+    #   dask
+    #   distributed
+    #   mlflow-skinny
+    #   pymc
+colorama==0.4.6
+    # via
+    #   click
+    #   ipython
+    #   tqdm
 comm==0.2.3
+    # via
+    #   -r requirements.txt
+    #   ipykernel
 cons==0.4.6
+    # via
+    #   -r requirements.txt
+    #   etuples
+    #   minikanren
+    #   pytensor
+contextily==1.5.2
+    # via -r requirements.txt
 contourpy==1.1.1
+    # via
+    #   -r requirements.txt
+    #   bokeh
+    #   matplotlib
 coverage==7.2.2
-cryptography==46.0.7
+    # via -r requirements.txt
+cryptography==41.0.7
+    # via
+    #   -r requirements.txt
+    #   google-auth
+    #   pyopenssl
 cycler==0.12.1
-Cython==3.0.6
+    # via
+    #   -r requirements.txt
+    #   matplotlib
+cython==3.0.6
+    # via -r requirements.txt
 cytoolz==0.12.2
-databricks-sdk==0.102.0
+    # via -r requirements.txt
+dask==2023.5.0
+    # via
+    #   -r requirements.txt
+    #   distributed
+databricks-sdk==0.67.0
+    # via mlflow-skinny
 dataclasses-json==0.6.7
-dask==2023.11.0
+    # via
+    #   -r requirements.txt
+    #   langchain-community
 debugpy==1.8.20
+    # via
+    #   -r requirements.txt
+    #   ipykernel
 decorator==5.2.1
+    # via
+    #   -r requirements.txt
+    #   ipython
 deprecated==1.3.1
-distributed==2023.11.0
+    # via
+    #   -r requirements.txt
+    #   opentelemetry-api
+    #   opentelemetry-semantic-conventions
+deprecation==2.1.0
+    # via segregation
+distributed==2023.5.0
+    # via -r requirements.txt
 distro==1.9.0
+    # via
+    #   -r requirements.txt
+    #   openai
 docker==7.1.0
+    # via
+    #   -r requirements.txt
+    #   mlflow
+esda==2.5.1
+    # via
+    #   -r requirements.txt
+    #   giddy
+    #   pysal
+    #   spaghetti
+    #   splot
 etuples==0.3.9
+    # via
+    #   -r requirements.txt
+    #   minikanren
+    #   pytensor
 exceptiongroup==1.3.1
+    # via
+    #   -r requirements.txt
+    #   anyio
 executing==2.2.1
+    # via
+    #   -r requirements.txt
+    #   stack-data
 fastprogress==1.0.0
+    # via
+    #   -r requirements.txt
+    #   pymc
 filelock==3.16.1
+    # via
+    #   -r requirements.txt
+    #   huggingface-hub
+    #   pytensor
+    #   torch
+    #   transformers
+fiona==1.10.1
+    # via
+    #   -r requirements.txt
+    #   geopandas
+    #   rasterstats
 flask==3.0.3
+    # via
+    #   -r requirements.txt
+    #   mlflow
+flatbuffers==25.12.19
+    # via tensorflow
+folium==0.18.0
+    # via -r requirements.txt
 fonttools==4.57.0
+    # via
+    #   -r requirements.txt
+    #   matplotlib
 frozenlist==1.5.0
+    # via
+    #   -r requirements.txt
+    #   aiohttp
+    #   aiosignal
 fsspec==2025.3.0
+    # via
+    #   -r requirements.txt
+    #   dask
+    #   huggingface-hub
+    #   torch
 gast==0.4.0
+    # via
+    #   -r requirements.txt
+    #   tensorflow
+geographiclib==2.1
+    # via geopy
+geopandas==0.13.2
+    # via
+    #   -r requirements.txt
+    #   access
+    #   libpysal
+    #   momepy
+    #   segregation
+    #   splot
+    #   spopt
+    #   tobler
+geopy==2.4.1
+    # via contextily
+giddy==2.3.4
+    # via
+    #   pysal
+    #   splot
 gitdb==4.0.12
+    # via
+    #   -r requirements.txt
+    #   gitpython
 gitpython==3.1.49
+    # via
+    #   -r requirements.txt
+    #   mlflow-skinny
 gmpy2==2.1.2
+    # via -r requirements.txt
 google-auth==2.50.0
+    # via
+    #   -r requirements.txt
+    #   databricks-sdk
+    #   google-auth-oauthlib
+    #   tensorboard
 google-auth-oauthlib==0.4.4
+    # via
+    #   -r requirements.txt
+    #   tensorboard
 google-pasta==0.2.0
+    # via
+    #   -r requirements.txt
+    #   tensorflow
 graphene==3.4.3
+    # via
+    #   -r requirements.txt
+    #   mlflow
 graphql-core==3.2.8
+    # via
+    #   -r requirements.txt
+    #   graphene
+    #   graphql-relay
 graphql-relay==3.2.0
+    # via
+    #   -r requirements.txt
+    #   graphene
+greenlet==3.1.1
+    # via sqlalchemy
 grpcio==1.36.1
+    # via
+    #   -r requirements.txt
+    #   tensorboard
+    #   tensorflow
 gunicorn==23.0.0
+    # via -r requirements.txt
 h11==0.16.0
-h5netcdf==1.2.0
+    # via
+    #   -r requirements.txt
+    #   httpcore
+h5netcdf==1.1.0
+    # via arviz
 h5py==3.9.0
-HeapDict==1.0.1
+    # via
+    #   -r requirements.txt
+    #   h5netcdf
+    #   tensorflow
+heapdict==1.0.1
+    # via -r requirements.txt
 hf-xet==1.4.3
+    # via
+    #   -r requirements.txt
+    #   huggingface-hub
 httpcore==1.0.9
+    # via
+    #   -r requirements.txt
+    #   httpx
 httpx==0.28.1
+    # via
+    #   -r requirements.txt
+    #   langsmith
+    #   ollama
+    #   openai
 huggingface-hub==0.36.2
+    # via
+    #   -r requirements.txt
+    #   langchain-huggingface
+    #   sentence-transformers
+    #   tokenizers
+    #   transformers
 idna==3.13
+    # via
+    #   -r requirements.txt
+    #   anyio
+    #   httpx
+    #   requests
+    #   yarl
 importlib-metadata==8.5.0
+    # via
+    #   -r requirements.txt
+    #   alembic
+    #   dask
+    #   fiona
+    #   flask
+    #   jupyter-client
+    #   markdown
+    #   mlflow-skinny
+    #   numba
+    #   opentelemetry-api
+    #   rasterio
 importlib-resources==6.4.5
+    # via
+    #   -r requirements.txt
+    #   alembic
+    #   jsonschema
+    #   jsonschema-specifications
+    #   matplotlib
+inequality==1.0.0
+    # via pysal
 ipykernel==6.29.5
+    # via -r requirements.txt
 ipython==8.12.3
+    # via
+    #   -r requirements.txt
+    #   ipykernel
 itsdangerous==2.2.0
+    # via
+    #   -r requirements.txt
+    #   flask
 jedi==0.19.2
-Jinja2==3.1.6
+    # via
+    #   -r requirements.txt
+    #   ipython
+jinja2==3.1.6
+    # via
+    #   -r requirements.txt
+    #   altair
+    #   bokeh
+    #   branca
+    #   distributed
+    #   flask
+    #   folium
+    #   mlflow
+    #   torch
 jiter==0.9.1
+    # via
+    #   -r requirements.txt
+    #   openai
 joblib==1.4.2
+    # via
+    #   -r requirements.txt
+    #   contextily
+    #   scikit-learn
+    #   segregation
+    #   tobler
 jsonpatch==1.33
+    # via
+    #   -r requirements.txt
+    #   langchain-core
 jsonpointer==3.0.0
+    # via
+    #   -r requirements.txt
+    #   jsonpatch
 jsonschema==4.19.2
+    # via
+    #   -r requirements.txt
+    #   altair
 jsonschema-specifications==2023.7.1
+    # via
+    #   -r requirements.txt
+    #   jsonschema
 jupyter-client==8.6.3
+    # via
+    #   -r requirements.txt
+    #   ipykernel
 jupyter-core==5.8.1
+    # via
+    #   -r requirements.txt
+    #   ipykernel
+    #   jupyter-client
 keras==2.10.0
-Keras-Preprocessing==1.1.2
+    # via
+    #   -r requirements.txt
+    #   tensorflow
+keras-preprocessing==1.1.2
+    # via
+    #   -r requirements.txt
+    #   tensorflow
 kiwisolver==1.4.7
+    # via
+    #   -r requirements.txt
+    #   matplotlib
 krippendorff==0.6.0
+    # via -r requirements.txt
 langchain==0.2.17
+    # via
+    #   -r requirements.txt
+    #   langchain-community
 langchain-community==0.2.19
+    # via -r requirements.txt
 langchain-core==0.2.43
+    # via
+    #   -r requirements.txt
+    #   langchain
+    #   langchain-community
+    #   langchain-huggingface
+    #   langchain-ollama
+    #   langchain-openai
+    #   langchain-text-splitters
 langchain-huggingface==0.0.3
+    # via -r requirements.txt
 langchain-ollama==0.1.3
+    # via -r requirements.txt
 langchain-openai==0.1.25
+    # via -r requirements.txt
 langchain-text-splitters==0.2.4
+    # via
+    #   -r requirements.txt
+    #   langchain
 langsmith==0.1.147
+    # via
+    #   -r requirements.txt
+    #   langchain
+    #   langchain-community
+    #   langchain-core
+libclang==18.1.1
+    # via tensorflow
+libpysal==4.8.1
+    # via
+    #   -r requirements.txt
+    #   esda
+    #   giddy
+    #   mgwr
+    #   momepy
+    #   pointpats
+    #   pysal
+    #   segregation
+    #   spaghetti
+    #   spglm
+    #   spint
+    #   splot
+    #   spopt
+    #   spreg
+    #   spvcm
+    #   tobler
+llvmlite==0.41.1
+    # via numba
 lmdb==1.4.1
+    # via -r requirements.txt
 locket==1.0.0
+    # via
+    #   -r requirements.txt
+    #   distributed
+    #   partd
 logical-unification==0.4.6
+    # via
+    #   -r requirements.txt
+    #   cons
+    #   minikanren
+    #   pytensor
 lz4==4.3.2
+    # via -r requirements.txt
 mako==1.3.12
-Markdown==3.7
-MarkupSafe==2.1.5
+    # via
+    #   -r requirements.txt
+    #   alembic
+mapclassify==2.6.0
+    # via
+    #   giddy
+    #   pysal
+    #   segregation
+    #   splot
+markdown==3.7
+    # via
+    #   -r requirements.txt
+    #   mlflow
+    #   tensorboard
+markupsafe==2.1.5
+    # via
+    #   -r requirements.txt
+    #   jinja2
+    #   mako
+    #   werkzeug
 marshmallow==3.22.0
+    # via
+    #   -r requirements.txt
+    #   dataclasses-json
 matplotlib==3.7.5
+    # via
+    #   -r requirements.txt
+    #   arviz
+    #   cartopy
+    #   contextily
+    #   mlflow
+    #   pointpats
+    #   seaborn
+    #   segregation
+    #   splot
 matplotlib-inline==0.1.7
-miniKanren==1.0.3
-mkl-fft==1.3.8
-mkl-random==1.2.4
-mkl-service==2.4.0
+    # via
+    #   -r requirements.txt
+    #   ipykernel
+    #   ipython
+mercantile==1.2.1
+    # via contextily
+mgwr==2.2.1
+    # via pysal
+minikanren==1.0.3
+    # via
+    #   -r requirements.txt
+    #   pytensor
 mlflow==2.17.2
+    # via -r requirements.txt
 mlflow-skinny==2.17.2
+    # via
+    #   -r requirements.txt
+    #   mlflow
+momepy==0.6.0
+    # via pysal
 mpmath==1.3.0
+    # via
+    #   -r requirements.txt
+    #   sympy
 msgpack==1.0.3
+    # via
+    #   -r requirements.txt
+    #   distributed
 multidict==6.1.0
+    # via
+    #   -r requirements.txt
+    #   aiohttp
+    #   yarl
 multipledispatch==0.6.0
+    # via
+    #   -r requirements.txt
+    #   etuples
+    #   logical-unification
+    #   minikanren
 munkres==1.1.4
+    # via -r requirements.txt
 mypy-extensions==1.1.0
+    # via
+    #   -r requirements.txt
+    #   typing-inspect
 nest-asyncio==1.6.0
+    # via
+    #   -r requirements.txt
+    #   ipykernel
 networkx==3.1
-numexpr==2.8.7
-numpy==1.26.3
+    # via
+    #   -r requirements.txt
+    #   mapclassify
+    #   momepy
+    #   spopt
+    #   torch
+numba==0.58.1
+    # via
+    #   quantecon
+    #   segregation
+numexpr==2.8.6
+    # via -r requirements.txt
+numpy==1.24.4
+    # via
+    #   access
+    #   altair
+    #   arviz
+    #   bokeh
+    #   bottleneck
+    #   cartopy
+    #   contourpy
+    #   fastprogress
+    #   folium
+    #   h5py
+    #   inequality
+    #   keras-preprocessing
+    #   krippendorff
+    #   langchain
+    #   langchain-community
+    #   libpysal
+    #   mapclassify
+    #   matplotlib
+    #   mgwr
+    #   mlflow
+    #   numba
+    #   numexpr
+    #   opt-einsum
+    #   pandas
+    #   patsy
+    #   pointpats
+    #   pyarrow
+    #   pygeos
+    #   pymc
+    #   pyogrio
+    #   pytensor
+    #   quantecon
+    #   rasterio
+    #   rasterstats
+    #   scikit-learn
+    #   scipy
+    #   seaborn
+    #   segregation
+    #   shapely
+    #   snuggs
+    #   spaghetti
+    #   spglm
+    #   spint
+    #   splot
+    #   spopt
+    #   spreg
+    #   spvcm
+    #   statsmodels
+    #   tensorboard
+    #   tensorflow
+    #   tobler
+    #   transformers
+    #   xarray
+    #   xarray-einstats
 oauthlib==3.2.2
+    # via
+    #   -r requirements.txt
+    #   requests-oauthlib
 ollama==0.6.2
+    # via
+    #   -r requirements.txt
+    #   langchain-ollama
 openai==1.109.1
+    # via
+    #   -r requirements.txt
+    #   langchain-openai
 opentelemetry-api==1.33.1
+    # via
+    #   -r requirements.txt
+    #   mlflow-skinny
+    #   opentelemetry-sdk
+    #   opentelemetry-semantic-conventions
 opentelemetry-sdk==1.33.1
+    # via
+    #   -r requirements.txt
+    #   mlflow-skinny
 opentelemetry-semantic-conventions==0.54b1
+    # via
+    #   -r requirements.txt
+    #   opentelemetry-sdk
 opt-einsum==3.3.0
+    # via
+    #   -r requirements.txt
+    #   tensorflow
 orjson==3.10.15
+    # via
+    #   -r requirements.txt
+    #   langsmith
 packaging==24.2
+    # via
+    #   -r requirements.txt
+    #   arviz
+    #   bokeh
+    #   dask
+    #   deprecation
+    #   distributed
+    #   geopandas
+    #   gunicorn
+    #   h5netcdf
+    #   huggingface-hub
+    #   ipykernel
+    #   langchain-core
+    #   libpysal
+    #   marshmallow
+    #   matplotlib
+    #   mlflow-skinny
+    #   momepy
+    #   pyogrio
+    #   splot
+    #   statsmodels
+    #   tensorflow
+    #   transformers
+    #   xarray
 pandas==2.0.3
+    # via
+    #   -r requirements.txt
+    #   access
+    #   altair
+    #   arviz
+    #   bokeh
+    #   esda
+    #   geopandas
+    #   libpysal
+    #   mapclassify
+    #   mlflow
+    #   momepy
+    #   pointpats
+    #   pymc
+    #   seaborn
+    #   segregation
+    #   spaghetti
+    #   spopt
+    #   spreg
+    #   spvcm
+    #   statsmodels
+    #   tobler
+    #   vega-datasets
+    #   xarray
 parso==0.8.6
+    # via
+    #   -r requirements.txt
+    #   jedi
 partd==1.4.1
+    # via
+    #   -r requirements.txt
+    #   dask
 patsy==0.5.3
+    # via
+    #   -r requirements.txt
+    #   statsmodels
 pexpect==4.9.0
+    # via -r requirements.txt
 pickleshare==0.7.5
-Pillow==10.4.0
+    # via
+    #   -r requirements.txt
+    #   ipython
+pillow==10.4.0
+    # via
+    #   -r requirements.txt
+    #   bokeh
+    #   contextily
+    #   matplotlib
+    #   sentence-transformers
 pip==23.3.1
+    # via -r requirements.txt
+pkgutil-resolve-name==1.3.10
+    # via jsonschema
 platformdirs==4.3.6
+    # via
+    #   -r requirements.txt
+    #   jupyter-core
+    #   libpysal
+pointpats==2.4.0
+    # via pysal
+polars==1.8.2
+    # via -r requirements.txt
 prompt-toolkit==3.0.52
+    # via
+    #   -r requirements.txt
+    #   ipython
 propcache==0.2.0
-protobuf==5.29.6
+    # via
+    #   -r requirements.txt
+    #   yarl
+protobuf==3.19.6
+    # via
+    #   mlflow-skinny
+    #   tensorboard
+    #   tensorflow
 psutil==7.2.2
+    # via
+    #   -r requirements.txt
+    #   distributed
+    #   ipykernel
 ptyprocess==0.7.0
+    # via
+    #   -r requirements.txt
+    #   pexpect
+pulp==3.1.1
+    # via spopt
 pure-eval==0.2.3
+    # via
+    #   -r requirements.txt
+    #   stack-data
 pyarrow==17.0.0
+    # via
+    #   -r requirements.txt
+    #   mlflow
 pyasn1==0.6.3
+    # via
+    #   -r requirements.txt
+    #   pyasn1-modules
+    #   rsa
 pyasn1-modules==0.4.2
+    # via
+    #   -r requirements.txt
+    #   google-auth
 pycparser==2.23
+    # via
+    #   -r requirements.txt
+    #   cffi
 pydantic==2.10.6
+    # via
+    #   -r requirements.txt
+    #   langchain
+    #   langchain-core
+    #   langsmith
+    #   ollama
+    #   openai
 pydantic-core==2.27.2
+    # via
+    #   -r requirements.txt
+    #   pydantic
+pygeos==0.14
+    # via tobler
 pygments==2.19.2
-PyJWT==2.4.0
+    # via
+    #   -r requirements.txt
+    #   ipython
+pyjwt==2.4.0
+    # via -r requirements.txt
 pymc==5.6.1
-pyOpenSSL==23.2.0
+    # via -r requirements.txt
+pyogrio==0.9.0
+    # via -r requirements.txt
+pyopenssl==23.2.0
+    # via -r requirements.txt
 pyparsing==3.1.4
-PySocks==1.7.1
+    # via
+    #   -r requirements.txt
+    #   matplotlib
+    #   snuggs
+pyproj==3.5.0
+    # via
+    #   -r requirements.txt
+    #   cartopy
+    #   geopandas
+    #   segregation
+pysal==24.1
+    # via -r requirements.txt
+pyshp==2.3.1
+    # via cartopy
+pysocks==1.7.1
+    # via -r requirements.txt
 pytensor==2.12.3
+    # via
+    #   -r requirements.txt
+    #   pymc
 python-dateutil==2.9.0.post0
+    # via
+    #   -r requirements.txt
+    #   graphene
+    #   jupyter-client
+    #   matplotlib
+    #   pandas
 pytz==2026.1.post1
-PyYAML==6.0.3
+    # via
+    #   -r requirements.txt
+    #   pandas
+pywin32==311
+    # via
+    #   docker
+    #   jupyter-core
+pyyaml==6.0.3
+    # via
+    #   -r requirements.txt
+    #   bokeh
+    #   dask
+    #   distributed
+    #   huggingface-hub
+    #   langchain
+    #   langchain-community
+    #   langchain-core
+    #   mlflow-skinny
+    #   transformers
 pyzmq==27.1.0
+    # via
+    #   -r requirements.txt
+    #   ipykernel
+    #   jupyter-client
+quantecon==0.11.2
+    # via giddy
+rasterio==1.3.11
+    # via
+    #   contextily
+    #   rasterstats
+    #   tobler
+rasterstats==0.20.0
+    # via tobler
 referencing==0.30.2
+    # via
+    #   -r requirements.txt
+    #   jsonschema
+    #   jsonschema-specifications
 regex==2024.11.6
+    # via
+    #   -r requirements.txt
+    #   tiktoken
+    #   transformers
 requests==2.32.4
+    # via
+    #   -r requirements.txt
+    #   access
+    #   contextily
+    #   databricks-sdk
+    #   docker
+    #   folium
+    #   huggingface-hub
+    #   langchain
+    #   langchain-community
+    #   langsmith
+    #   libpysal
+    #   mlflow-skinny
+    #   quantecon
+    #   requests-oauthlib
+    #   requests-toolbelt
+    #   tensorboard
+    #   tiktoken
+    #   transformers
 requests-oauthlib==1.3.0
+    # via
+    #   -r requirements.txt
+    #   google-auth-oauthlib
 requests-toolbelt==1.0.0
+    # via
+    #   -r requirements.txt
+    #   langsmith
 rpds-py==0.10.6
+    # via
+    #   -r requirements.txt
+    #   jsonschema
+    #   referencing
 rsa==4.7.2
+    # via -r requirements.txt
+rtree==1.3.0
+    # via spaghetti
 safetensors==0.5.3
+    # via
+    #   -r requirements.txt
+    #   transformers
 scikit-learn==1.3.2
-scipy==1.11.4
+    # via
+    #   -r requirements.txt
+    #   esda
+    #   mapclassify
+    #   mlflow
+    #   segregation
+    #   sentence-transformers
+    #   spopt
+    #   spreg
+scipy==1.10.1
+    # via
+    #   arviz
+    #   esda
+    #   giddy
+    #   inequality
+    #   libpysal
+    #   mapclassify
+    #   mgwr
+    #   mlflow
+    #   pointpats
+    #   pymc
+    #   pytensor
+    #   quantecon
+    #   scikit-learn
+    #   segregation
+    #   sentence-transformers
+    #   spaghetti
+    #   spglm
+    #   spint
+    #   spopt
+    #   spreg
+    #   spvcm
+    #   statsmodels
+    #   tobler
+    #   xarray-einstats
 seaborn==0.12.2
+    # via
+    #   -r requirements.txt
+    #   segregation
+    #   splot
+    #   spvcm
+segregation==2.5
+    # via pysal
 sentence-transformers==3.2.1
+    # via
+    #   -r requirements.txt
+    #   langchain-huggingface
 setuptools==68.2.2
+    # via
+    #   -r requirements.txt
+    #   arviz
+    #   pytensor
+    #   rasterio
+    #   tensorboard
+    #   tensorflow
+shapely==2.0.7
+    # via
+    #   -r requirements.txt
+    #   cartopy
+    #   geopandas
+    #   libpysal
+    #   momepy
+    #   rasterstats
+simplejson==4.1.1
+    # via rasterstats
 six==1.17.0
+    # via
+    #   -r requirements.txt
+    #   astunparse
+    #   google-pasta
+    #   grpcio
+    #   keras-preprocessing
+    #   multipledispatch
+    #   patsy
+    #   python-dateutil
+    #   tensorflow
 smmap==5.0.3
+    # via
+    #   -r requirements.txt
+    #   gitdb
 sniffio==1.3.1
+    # via
+    #   -r requirements.txt
+    #   anyio
+    #   openai
+snuggs==1.4.7
+    # via rasterio
 sortedcontainers==2.4.0
+    # via
+    #   -r requirements.txt
+    #   distributed
+soupsieve==2.7
+    # via beautifulsoup4
+spaghetti==1.7.4
+    # via
+    #   pysal
+    #   spopt
+spglm==1.0.8
+    # via
+    #   mgwr
+    #   pysal
+    #   spint
+spint==1.0.7
+    # via pysal
+splot==1.1.7
+    # via pysal
+spopt==0.5.0
+    # via pysal
+spreg==1.5.0
+    # via
+    #   -r requirements.txt
+    #   mgwr
+    #   pysal
+    #   spglm
+    #   spint
+    #   splot
+    #   spvcm
+spvcm==0.3.0
+    # via pysal
 sqlalchemy==2.0.49
+    # via
+    #   -r requirements.txt
+    #   alembic
+    #   langchain
+    #   langchain-community
+    #   mlflow
 sqlparse==0.5.5
+    # via
+    #   -r requirements.txt
+    #   mlflow-skinny
 stack-data==0.6.3
+    # via
+    #   -r requirements.txt
+    #   ipython
 statsmodels==0.14.0
+    # via
+    #   -r requirements.txt
+    #   tobler
 sympy==1.13.3
+    # via
+    #   -r requirements.txt
+    #   quantecon
+    #   torch
 tblib==1.7.0
+    # via
+    #   -r requirements.txt
+    #   distributed
 tenacity==8.5.0
+    # via
+    #   -r requirements.txt
+    #   langchain
+    #   langchain-community
+    #   langchain-core
 tensorboard==2.10.0
+    # via
+    #   -r requirements.txt
+    #   tensorflow
 tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.6.0
+    # via
+    #   -r requirements.txt
+    #   tensorboard
+tensorboard-plugin-wit==1.8.1
+    # via tensorboard
 tensorflow==2.10.0
+    # via -r requirements.txt
 tensorflow-estimator==2.10.0
+    # via
+    #   -r requirements.txt
+    #   tensorflow
+tensorflow-io-gcs-filesystem==0.31.0
+    # via tensorflow
 termcolor==2.1.0
+    # via
+    #   -r requirements.txt
+    #   tensorflow
 threadpoolctl==3.5.0
+    # via
+    #   -r requirements.txt
+    #   scikit-learn
 tiktoken==0.7.0
+    # via
+    #   -r requirements.txt
+    #   langchain-openai
+tobler==0.9.0
+    # via pysal
 tokenizers==0.20.3
+    # via
+    #   -r requirements.txt
+    #   langchain-huggingface
+    #   transformers
 tomli==2.0.1
+    # via -r requirements.txt
 toolz==0.12.0
+    # via
+    #   -r requirements.txt
+    #   altair
+    #   cytoolz
+    #   dask
+    #   distributed
+    #   logical-unification
+    #   minikanren
+    #   partd
 torch==2.4.1
+    # via
+    #   -r requirements.txt
+    #   sentence-transformers
 tornado==6.4.2
+    # via
+    #   -r requirements.txt
+    #   bokeh
+    #   distributed
+    #   ipykernel
+    #   jupyter-client
 tqdm==4.67.3
+    # via
+    #   -r requirements.txt
+    #   huggingface-hub
+    #   momepy
+    #   openai
+    #   segregation
+    #   sentence-transformers
+    #   spopt
+    #   tobler
+    #   transformers
 traitlets==5.14.3
+    # via
+    #   -r requirements.txt
+    #   ipykernel
+    #   ipython
+    #   jupyter-client
+    #   jupyter-core
+    #   matplotlib-inline
 transformers==4.46.3
+    # via
+    #   -r requirements.txt
+    #   langchain-huggingface
+    #   sentence-transformers
 typing-extensions==4.13.2
+    # via
+    #   -r requirements.txt
+    #   alembic
+    #   altair
+    #   annotated-types
+    #   anyio
+    #   arviz
+    #   beautifulsoup4
+    #   exceptiongroup
+    #   gitpython
+    #   graphene
+    #   graphql-core
+    #   huggingface-hub
+    #   ipython
+    #   langchain-core
+    #   multidict
+    #   openai
+    #   opentelemetry-sdk
+    #   pydantic
+    #   pydantic-core
+    #   pymc
+    #   pytensor
+    #   sqlalchemy
+    #   tensorflow
+    #   torch
+    #   typing-inspect
 typing-inspect==0.9.0
+    # via
+    #   -r requirements.txt
+    #   dataclasses-json
 tzdata==2026.2
+    # via
+    #   -r requirements.txt
+    #   pandas
 urllib3==2.2.3
+    # via
+    #   -r requirements.txt
+    #   distributed
+    #   docker
+    #   requests
 vega-datasets==0.9.0
+    # via -r requirements.txt
+waitress==3.0.0
+    # via mlflow
 wcwidth==0.6.0
-Werkzeug==3.0.6
+    # via
+    #   -r requirements.txt
+    #   prompt-toolkit
+werkzeug==3.0.6
+    # via
+    #   -r requirements.txt
+    #   flask
+    #   tensorboard
 wheel==0.35.1
+    # via
+    #   -r requirements.txt
+    #   astunparse
+    #   tensorboard
 wrapt==2.0.1
-xarray==2023.6.0
-xarray-einstats==0.6.0
+    # via
+    #   -r requirements.txt
+    #   deprecated
+    #   tensorflow
+xarray==2023.1.0
+    # via
+    #   arviz
+    #   xarray-einstats
+xarray-einstats==0.5.1
+    # via arviz
 xyzservices==2022.9.0
+    # via
+    #   -r requirements.txt
+    #   bokeh
+    #   contextily
+    #   folium
 yarl==1.15.2
+    # via
+    #   -r requirements.txt
+    #   aiohttp
 zict==3.0.0
+    # via
+    #   -r requirements.txt
+    #   distributed
 zipp==3.20.2
+    # via
+    #   -r requirements.txt
+    #   importlib-metadata
+    #   importlib-resources
