@@ -176,8 +176,8 @@ uv pip compile requirements.in  --python-version 3.8.18 --python-platform window
 See file [requirements.in](./requirements.in).
 
 ## R packages
-- CRAN: `data.table`, `dplyr`, `ggplot2`, `readr`, `tidyr`, `stringr`, `lubridate`, `tibble`, `purrr`, `jsonlite`, `httr`, `DBI`, `RSQLite`, `cli`, `ellmer`, `irr`, `tidyverse`, `rmarkdown`, `renv`, `devtools`, `gridExtra`, `rlang`, `here`
-- Others: [`dsl`](https://naokiegami.com/dsl/)
+- CRAN: `data.table`, `dplyr`, `ggplot2`, `readr`, `tidyr`, `stringr`, `lubridate`, `tibble`, `purrr`, `jsonlite`, `httr`, `DBI`, `RSQLite`, `cli`, `ellmer`, `irr`, `tidyverse`, `rmarkdown`, `renv`, `devtools`, `gridExtra`, `rlang`, `here`, `grf`, `estimatr`, `SuperLearner`, `arm`, `matrixcalc`
+- Others: [`dsl`](https://naokiegami.com/dsl/), which depends on `grf`, `estimatr`, `SuperLearner`, `arm`, and `matrixcalc`
 
 ## Ollama models
 - `qwen2.5:7b`
