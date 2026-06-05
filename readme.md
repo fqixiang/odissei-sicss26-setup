@@ -9,13 +9,13 @@ By following the instructions in this README, you can:
 ## Install Extra R Packages (SANE Machines)
 The default R environment on SANE machines does not include the following packages, which are required for some of the analyses and projects you will be working on: `sf` `terra` `tidyterra` `lwgeom` `tmap` `leaflet` `mapview` `spdep` `spatialreg` `sfdep` `dsl`. To install these packages, follow the steps below:
 
-1. Navigate to `S:/scripts/install_extra_r_packages/` in your SANE machine.
-2. Open the `install_extra_r_packages.R` script in an R environment (e.g., RStudio).
+1. Navigate to `S:/scripts/extra_r_packages_for_sane/` in your SANE machine.
+2. Open the `install_extra_r_packages_in_sane.R` script in an R environment (e.g., RStudio).
 3. Run the script to install the required packages. 
 
-```
-If you need to install additional R packages beyond those listed above, you can ask your course instructors for assistance. They can update the "extra_r_packages_for_sane" folder, so that you can install them in your SANE machine by running the updated installation script.
-```
+
+> If you need to install additional R packages beyond those listed above, you can ask your course instructors for assistance. They can update the "extra_r_packages_for_sane" folder, so that you can install them in your SANE machine by running the updated installation script.
+
 
 ## Reproduce the Software Environment on Your Local Machine
 Follow the steps below to reproduce the Python and R environments, as well as the required Ollama LLM models.
@@ -64,7 +64,7 @@ Follow the steps below to reproduce the Python and R environments, as well as th
 
 2. Install [RStudio](https://posit.co/download/rstudio-desktop/).
 
-3. In RStudio, open the this repository as a project, and verify that `R 4.5.3` is the R version being used:
+3. In RStudio, open this repository as a project, and verify that `R 4.5.3` is the R version being used:
    ```r
    R.version.string
    ```
@@ -183,3 +183,8 @@ The `requirements.txt` file is used by SURF to set up the Python environment in 
 2. Add the new packages to the `packages.R` script.
 3. Run `renv::snapshot()` in the R console to update the `renv.lock` file with the new package versions.
 4. Commit and push the updated `renv.lock` file to the repository, so that others can restore the same environment.
+
+## How to Add New R Packages to SANE (for Instructors)
+1. Use the `./extra_r_packages_for_sane/download_extra_r_packages_for_sane.R` script to download any new package (and its dependencies) to the `extra_r_packages_for_sane/cran` or `extra_r_packages_for_sane/source` folder, depending on whether it's a binary from CRAN or a source package.
+2. Update the `install_extra_r_packages_in_sane.R` script to include the installation of the new package, following the existing structure of the script.
+3. Upload the downloaded package files and updated installation script via `SANE Data Provider Portal SICSS 2026 Group 1` on [Research Cloud](https://portal.live.surfresearchcloud.nl/dashboard). Make sure to place the packages in the correct folder (`cran` for binary packages from CRAN, `source` for source packages). Alternatively, simply upload the entire `extra_r_packages_for_sane` folder to overwrite the existing one `S:/scripts/extra_r_packages_for_sane` in SANE.
